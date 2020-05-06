@@ -10,14 +10,14 @@ namespace AnimalPark.Animals
     private string _food;
     private int _danger;
 
-
-    public Critter(string species, string name, int age, string food, int danger)
+    public Critter(string species, string name, int age, string food, int danger, string location)
     {
       _species = species;
       _name = name;
       _age = age;
       _food = food;
       _danger = danger;
+      _location = none;
     }
     public string GetSpecies()
     {
@@ -37,6 +37,14 @@ namespace AnimalPark.Animals
     public int GetDanger()
     {
       return _danger;
+    }
+    public string SetLocation(string location) 
+    {
+       _location=newLocation;
+    }
+    public string GetLocation()
+    {
+      return _location;
     }
   }
 }
