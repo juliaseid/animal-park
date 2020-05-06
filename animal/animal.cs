@@ -19,36 +19,27 @@ namespace AnimalPark.Animals
       _food = food;
       _danger = danger;
     }
-    public string getSpecies()
+    public string GetSpecies()
     {
       return _species;
     }
-    public string getName(){
+    public string GetName(){
       return _name;
     }
-    public int getAge()
+    public int GetAge()
     {
       return _age;
     }
-    public string getFood()
+    public string GetFood()
     {
       return _food;
     }
-    public int getDanger()
+    public int GetDanger()
     {
       return _danger;
     }
-
-
-
   }
 }
 
 
-/*
-List<Critter> critters = new List<Critter>();
 
-public void AddAnimal(myCritter){
-  critters.Add(myCritter);
-}
- */
