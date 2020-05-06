@@ -1,0 +1,12 @@
+/Users/juliaseidman/Documents/Epicodus/Week_8/animal-park/obj/Debug/netcoreapp2.2/animal-park.csprojAssemblyReference.cache
+/Users/juliaseidman/Documents/Epicodus/Week_8/animal-park/obj/Debug/netcoreapp2.2/animal-park.csproj.CoreCompileInputs.cache
+/Users/juliaseidman/Documents/Epicodus/Week_8/animal-park/obj/Debug/netcoreapp2.2/animal-park.AssemblyInfoInputs.cache
+/Users/juliaseidman/Documents/Epicodus/Week_8/animal-park/obj/Debug/netcoreapp2.2/animal-park.AssemblyInfo.cs
+/Users/juliaseidman/Documents/Epicodus/Week_8/animal-park/bin/Debug/netcoreapp2.2/animal-park.deps.json
+/Users/juliaseidman/Documents/Epicodus/Week_8/animal-park/bin/Debug/netcoreapp2.2/animal-park.runtimeconfig.json
+/Users/juliaseidman/Documents/Epicodus/Week_8/animal-park/bin/Debug/netcoreapp2.2/animal-park.runtimeconfig.dev.json
+/Users/juliaseidman/Documents/Epicodus/Week_8/animal-park/bin/Debug/netcoreapp2.2/animal-park.dll
+/Users/juliaseidman/Documents/Epicodus/Week_8/animal-park/bin/Debug/netcoreapp2.2/animal-park.pdb
+/Users/juliaseidman/Documents/Epicodus/Week_8/animal-park/obj/Debug/netcoreapp2.2/animal-park.dll
+/Users/juliaseidman/Documents/Epicodus/Week_8/animal-park/obj/Debug/netcoreapp2.2/animal-park.pdb
+/Users/juliaseidman/Documents/Epicodus/Week_8/animal-park/obj/Debug/netcoreapp2.2/animal-park.genruntimeconfig.cache
