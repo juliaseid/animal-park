@@ -1,15 +1,18 @@
 using System;
+using System.Collections.Generic;
+using AnimalPark.Animals;
 
 namespace AnimalPark.Locations
 {
   public class Exhibit
   {
     private string _location;
+    private List<Critter> _tenants;
 
-    public Exhibit (string location, List<Critter> tenants)
+    public Exhibit (string location)
     {
       _location = location;
-      List<Critter> _tenants = new List<Critter>();
+      List<Critter> _tenants = new List<Critter>() {};
     }
 
     public string GetLocation ()

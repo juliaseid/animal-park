@@ -32,7 +32,8 @@ namespace AnimalPark
         string food = Console.ReadLine();
         Console.WriteLine("How dangerous is it?");
         int danger = int.Parse(Console.ReadLine());
-        Critter myCritter = new Critter(species,  name,  age,  food,  danger);
+        string location = "";
+        Critter myCritter = new Critter(species,  name,  age,  food,  danger, location);
         Animals.Add(myCritter);
         
       }
@@ -66,7 +67,7 @@ namespace AnimalPark
 
     foreach (Critter animal in Animals) {
       foreach (Exhibit spot in Locations) {
-        if (animal.GetLocation == spot.GetLocation()) {
+        if (animal.GetLocation() == spot.GetLocation()) {
           spot.SetTenants(animal);
         }
       }

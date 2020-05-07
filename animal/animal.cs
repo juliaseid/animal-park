@@ -9,6 +9,7 @@ namespace AnimalPark.Animals
     private int _age;
     private string _food;
     private int _danger;
+    private string _location;
 
     public Critter(string species, string name, int age, string food, int danger, string location)
     {
@@ -17,7 +18,7 @@ namespace AnimalPark.Animals
       _age = age;
       _food = food;
       _danger = danger;
-      _location = none;
+      _location = location;
     }
     public string GetSpecies()
     {
@@ -38,9 +39,9 @@ namespace AnimalPark.Animals
     {
       return _danger;
     }
-    public string SetLocation(string location) 
+    public void SetLocation(string location) 
     {
-       _location=newLocation;
+       _location=location;
     }
     public string GetLocation()
     {
